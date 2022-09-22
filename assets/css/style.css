@@ -1,10 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap');
 
 body{
-    font-family: Bodoni, sans-serif;
+    font-family: 'Bodoni Moda', sans-serif;
     font-weight: 500;
     color: rgb(7, 33, 114);
 }
 
 /* logo graphic */
+
+.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 180px;
+  left: -50px;
+}
+
+#heading {
+    float: right;
+    
+
+}
+
+#menu {
+    float: left;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 250px;
+}
+
 
