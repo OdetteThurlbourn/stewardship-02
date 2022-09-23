@@ -1,18 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
 body{
-    font-family: 'Bodoni Moda', sans-serif;
+    font-family: Quicksand, sans-serif;
     font-weight: 500;
     color: rgb(7, 33, 114);
 }
 
-/* logo graphic */
+/* logo */
 
-.header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-  background: #555;
+#logo-01 {
+font-family: 'Bodoni Moda', sans-serif;
+font-size: 600%;
+margin-right: 30px;
+text-transform: uppercase;
+text-decoration: none;
+color: #5f3d23;
+}
+
+#logo-02 {
+font-family: Playfair Display, sans-serif;
+font-size: 300%;
+font-weight: lighter;
+margin: 0px 30px 30px 500px;
+text-transform: capitalize;
+text-decoration: none;
+color: #eadcc8;
+background-color: #5f3d23;
+}
+/* hero image and cover text */
+
+#hero-image {
+  background: url('../images/BronzeMeteorRootIcon.jpg');
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header h1 {
@@ -23,8 +46,6 @@ body{
 
 #heading {
     float: right;
-    
-
 }
 
 #menu {
@@ -37,3 +58,43 @@ body{
 }
 
 
+
+/* Gallery for Products and Projects */
+
+#images {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+
+#images > img {
+  width: 100%;
+}
+
+/* Social-network elements */
+
+#footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  background: #a29080;
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks > li {
+  display: inline;
+}
+
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #3c4444;
+}
